@@ -1,13 +1,11 @@
 namespace: microserviceRoot
 
 public:
-  - web
+  - web:3000
 
 services:
   web:
     image: node:4
-    ports:
-      - "3000:3000"
     volumes:
       - ..:/microserviceRoot
     working_dir: /microserviceRoot

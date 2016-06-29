@@ -11,3 +11,5 @@ app
   .use(router.routes())
   .use(router.allowedMethods())
   .listen(3000)
+
+console.log('microserviceRoot listening on 3000')
