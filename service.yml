@@ -15,6 +15,7 @@ services:
 
 dependencies:
   - microserviceA
+  - microserviceB # just for a failure test
   - microserviceD
 
 setup:
